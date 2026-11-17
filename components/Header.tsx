@@ -11,7 +11,7 @@ export function Header() {
     <header className="border-b border-white/10">
       <nav aria-label="Primary" className="mx-auto flex max-w-[1200px] items-center justify-between gap-6 px-5 py-2.5 md:px-10 md:py-5">
         <a href="#top" className="flex items-center gap-2">
-          <LogoMark className="h-7 w-10 md:h-[68px] md:w-[95px] md:rounded-[14px]" />
+          <LogoMark className="h-7 w-10 md:h-9 md:w-[52px]" />
           <span className="text-base font-semibold">MULTI-AI</span>
         </a>
 
