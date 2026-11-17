@@ -27,7 +27,7 @@ jobs:
       # Project page (github.io/<repo>): set the base path. Custom domain: leave empty.
       - run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '/landing-page' }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: out
